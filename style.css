@@ -133,7 +133,9 @@ button {
 }
 
 /* Completed */
-.todo__completed-tasks-ul .todo__task {
+/* Поиск по лейблу внутри списка - не должен вызывать проблем и противноречить ТЗ. 
+Не вижу возможности убрать не перелопатив половину JS*/
+.todo__completed-tasks-ul label {
   text-decoration: line-through;
   color: #888;
 }
